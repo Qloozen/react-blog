@@ -1,5 +1,4 @@
 import { toBeInTheDocument } from '@testing-library/jest-dom/dist/matchers';
-import './App.css';
 import Navbar from './Navbar';
 import Home from './Home';
 
