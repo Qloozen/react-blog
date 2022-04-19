@@ -3,6 +3,7 @@ import Home from './Home';
 import Create from './Create';
 import { Routes, Route } from 'react-router-dom';
 import BlogDetails from './BlogDetails';
+import NotFound from './NotFound';
 
 // This is a component-function that returns JSX code
 function App() { 
@@ -14,6 +15,7 @@ function App() {
             <Route path="/" element={<Home/>}/>
             <Route path="create" element={<Create />} />
             <Route path="blogs/:id" element={<BlogDetails />} />
+            <Route path='*' element={<NotFound/>}></Route>
           </Routes>
         </div>
       </div>
