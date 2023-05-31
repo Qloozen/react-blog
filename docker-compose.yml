@@ -12,4 +12,4 @@ services:
 networks:
   default:
     name: nginxproxymanager_default
-    extern: true
+    external: true
